@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Poppins-Light";
-    src: url(./asset/Poppins-Light.ttf);
+    src: url(./asset/font/Poppins-Light.ttf);
 }
 @font-face {
     font-family: "poppins-reguler";
-    src: url(./asset/Poppins-Regular.ttf);
+    src: url(./asset/font/Poppins-Regular.ttf);
 }
 body {
     margin: 0;
@@ -83,7 +83,7 @@ body {
     margin-top: 20px;
     text-align: left;
     padding-left: 30px;
-    background: url(asset/view.png);
+    background: url(asset/image/view.png);
     background-repeat: no-repeat;
     background-position: right 30px center;
 }
