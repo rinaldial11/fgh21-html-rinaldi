@@ -1,0 +1,196 @@
+/* HOME */
+@font-face {
+    font-family: poppins;
+    src: url(./asset/font/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: poppins-reg;
+    src: url(./asset/font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: poppins-semibold;
+    src: url(./asset/font/Poppins-SemiBold.ttf);
+}
+body {
+    font-family: poppins;
+    margin: 0;
+}
+.layer1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: poppins-semibold;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+.fill {
+    height: 50px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+.we {
+    color: #3366FF;
+    font-size: 24px;
+}
+.tick {
+    color: #FC1055;
+    font-size: 24px;
+}
+.nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    color: #373A42;
+    font-size: 14px;
+}
+.nav .nav-home {
+    color: #3366FF;
+    display: flex;
+    margin-top: 20px;
+}
+.mdash {
+    display: flex;
+    color: #3366FF;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+}
+.all-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-button .button1, .all-button .button2 {
+    height: 40px;
+    font-family: poppins-semibold;
+    width: 169px;
+    letter-spacing: 1px;
+}
+.all-button .button1 {
+    color: #373A42;
+    background: transparent;
+    border: none;
+}
+.all-button .button2 {
+    margin-right: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #3366FF;
+}
+.layer2 {
+    background-color: #3366FF;
+    display: flex;
+    height: 1000px;
+    align-items: center;
+    justify-content: end;
+    background-image: url(./asset/image/group-ellipse.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagegroup {
+    position: absolute;
+    height: 478px;
+}
+.layer3 {
+    height: 100dvh;
+}
+.event-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+.button3 {
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 150px;
+    font-family: poppins-semibold;
+    background-color: #F8D1DB;
+    color: #FF3D71;
+    font-size: 12px;
+}
+.layer3-child2 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.event-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins-semibold;
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 75px;
+    font-size: 16px;
+    font-family: poppins-semibold;
+    color: #C1C5D0;
+}
+.date-grandc {
+    margin-bottom: 10px;
+}
+.date-childsel {
+    color: #FF8900;
+    border: 1px #FF8900 solid;
+    border-radius: 20px;
+    padding: 16px 11px;
+}
+.event-imglist {
+    width: 260px;
+    height: 376px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;   
+    margin-top: 5%;
+}
+.event-imglist .event-img1 {    
+    height: 376px;
+}
+.event-imgdate {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 60px;
+    left: 16px;
+    color: white;
+    font-size: 14px;
+}
+.tag {
+    font-size: 24px;
+}
+
+/* EVENT */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-right: 5%;
+}
+.profile-img {
+  background-color: transparent;
+  border: #3366FF 2px solid;
+  width: 55px ;
+  height: 55px ;
+  border-radius: 27.5px;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+}
+.profile-img .img-profile {
+  height: 48px;
+}
+.john {
+  font-size: 14px;
+}
