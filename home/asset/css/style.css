@@ -1,15 +1,15 @@
 /* HOME */
 @font-face {
     font-family: poppins;
-    src: url(./asset/font/Poppins-Light.ttf);
+    src: url(./font/Poppins-Light.ttf);
 }
 @font-face {
     font-family: poppins-reg;
-    src: url(./asset/font/Poppins-Regular.ttf);
+    src: url(./font/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: poppins-semibold;
-    src: url(./asset/font/Poppins-SemiBold.ttf);
+    src: url(./font/Poppins-SemiBold.ttf);
 }
 body {
     font-family: poppins;
@@ -86,7 +86,7 @@ body {
     height: 1000px;
     align-items: center;
     justify-content: end;
-    background-image: url(./asset/image/group-ellipse.png);
+    background-image: url(./image/group-ellipse.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
