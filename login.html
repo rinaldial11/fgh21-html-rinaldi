@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
         <link rel="stylesheet" href="./login/asset/css/login.css">
@@ -20,19 +21,21 @@
                 </div>
                 <div class="head1"><h1>Sign in</h1></div>
                 <div class="head2">Hi, Welcome back to Urticket!</div>
-                <div class="input">
-                    <input type="text" class="username" placeholder="Username">
-                </div>
-                <div class="input">
-                    <input type="email" class="email" placeholder="Email">
-                </div>
-                <div class="input">
-                    <input type="password" class="password" placeholder="Password">
-                </div>
-                <div class="forgot"><a href="url" target="_blank" class="link1">Forgot Password?</a></div>
-                <div class="button-sign">
-                    <button class="button1" type="button">Sign In</button>
-                </div>
+                <form onsubmit="processData(event)">
+                    <div class="input">
+                        <input type="text" name="username" class="username" placeholder="Username">
+                    </div>
+                    <div class="input">
+                        <input type="email" name="email" class="email" placeholder="Email">
+                    </div>
+                    <div class="input">
+                        <input type="password" name="password" class="password" placeholder="Password">
+                    </div>
+                    <div class="forgot"><a href="url" target="_blank" class="link1">Forgot Password?</a></div>
+                    <div class="button-sign">
+                        <button class="button1" type="submit">Sign In</button>
+                    </div>
+                </form>
                 <div class="or">or sign in with</div>
                 <div class="buttonimg">
                     <div>
@@ -44,5 +47,6 @@
                 </div>
             </div>
         </div>
+        <script src="./login/asset/js/login.js"></script>
     </body>
 </html>
