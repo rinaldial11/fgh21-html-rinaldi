@@ -25,7 +25,7 @@ body {
 .fill {
     height: 50px;
 }
-.logo {
+.layer1 .logo {
     display: flex;
     align-items: center;
     margin-left: 5%;
@@ -160,6 +160,28 @@ body {
 }
 .tag {
     font-size: 24px;
+}
+.layer-footer-1 {
+    display: flex;
+    align-items: center;
+}
+.footer-logo {
+    width: 30%;
+}
+.layer-footer-1 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+    width: 100%;
+}
+.footer-list-child ul {
+    list-style: none;
 }
 
 /* EVENT */
