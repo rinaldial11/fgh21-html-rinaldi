@@ -207,3 +207,6 @@ body {
 .john {
   font-size: 14px;
 }
+.empty-container {
+    height: 100dvh ;
+}
